@@ -1,16 +1,25 @@
-# OrangeHRM-Testing
-This is a test automation project built using Selenium with Java for the OrangeHRM web application.
-The project focuses on validating key HRM features to ensure system reliability and performance.
+# OrangeHRM Selenium Automation Testing
 
-✅ Features Tested:
-Login functionality
+This project is focused on automating feature testing for the [OrangeHRM](https://www.orangehrm.com/) web application using **Selenium with Java**.
 
-Employee Management, including:
+## 🔍 Features Tested
+- ✅ Login functionality
+- ✅ Employee Management:
+  - Add new employee
+  - Update employee information
+  - Search employees
+  - Apply filters based on job title
 
-Adding a new employee
+## 🛠 Technologies Used
+- Selenium WebDriver
+- Java
+- TestNG
+- Apache POI (for Excel data reading)
+- Maven (or your build tool)
 
-Updating employee information after creation
+## 📁 Project Structure
+Organized into feature-based test classes for clarity and easy maintenance.
 
-Searching for employees
+---
 
-Applying filters (e.g., based on Job Title)
+Feel free to clone, use, or improve this automation framework for learning or professional testing purposes!
